@@ -1,0 +1,18 @@
+name: ServerCore
+version: 1.0
+main: si.servercore.ServerCore
+api-version: '26.3'
+description: Kramp 3x3, /shop, /sell in denar
+commands:
+  shop:
+    description: Odpre shop
+  sell:
+    description: "/sell (predmet v roki) ali /sell all"
+  balance:
+    description: Pokaže stanje denarja
+    aliases: [bal]
+  kramp:
+    description: Da Kramp 3x3 (samo admin)
+permissions:
+  servercore.admin:
+    default: op
